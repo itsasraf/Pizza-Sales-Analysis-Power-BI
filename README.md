@@ -16,34 +16,19 @@ An interactive, multi-page Power BI dashboard that analyzes a full year of pizza
 
 ---
 
-## 🗂️ Dashboard Pages
+## 📊 Dashboard Previews
 
 ### 1. Sales Overview
-- Total pizzas sold and total revenue KPI cards
-- **Monthly revenue trend** (bar chart): revenue stays steady at roughly $64K–$73K per month, with July the strongest month
-- **Revenue by day type**: weekdays generate about 72.8% of revenue, weekends about 27.2%
-- **Revenue by pizza size**: Large leads with about 45.9%, followed by Medium (30.5%) and Small (21.8%); XL and XXL are minor contributors
-- Slicers: Pizza Size, Pizza Name, Pizza Category
+![Sales Overview](01_Sales_Overview.png)
 
 ### 2. Hourly Sales Analysis
-- **Total orders by hour** and **total revenue by hour** (line charts)
-- Clear lunch peak (12 PM–1 PM) and a second evening peak (5 PM–7 PM)
-- Slicers: Month, Category, Hour Label, Pizza Size
+![Hourly Sales Analysis](02_Hourly_Sales_Analysis.png)
 
 ### 3. Revenue Trend Analysis
-- KPI cards: Total Orders, Total Revenue, AOV, Total Pizza Sold, Avg. Pizzas per Order, Highest Order Value
-- **Revenue by category** (donut): Classic, Supreme, Chicken and Veggie each contribute close to a quarter of revenue
-- **Pizzas sold by category** (bar): Classic sells the most units, followed by Supreme, Veggie and Chicken
-- Slicers: Month, Category
-
+![Revenue Trend Analysis](03_Revenue_Trend_Analysis.png)
 
 ### 4. Product Performance
-- **Top 10 pizzas by revenue**: led by The Thai Chicken Pizza, The Barbecue Chicken Pizza and The California Chicken Pizza
-- **Top 10 pizzas by quantity sold**: led by The Classic Deluxe Pizza, The Barbecue Chicken Pizza and The Hawaiian Pizza
-- **Bottom 5 pizzas by revenue**: The Brie Carre Pizza, The Green Garden Pizza, The Spinach Supreme Pizza, and others
-- Category-wise and size-wise revenue tables
-- Detailed **summary table** with total orders, pizzas sold, revenue, AOV and month-over-month (MoM) growth
-- Month slicer
+![Product Performance](04_Product_Performance.png)
 ---
 
 ## 🔍 Key Insights
