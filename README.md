@@ -86,16 +86,16 @@ An interactive, multi-page Power BI dashboard that analyzes a full year of pizza
 ## 🖼️ Screenshots
 
 ### Sales Overview
-![Sales Overview](images/01_overview.png)
+![Sales Overview](01_Sales Overview.png)
 
 ### Pizza Performance
-![Pizza Performance](images/02_pizza_performance.png)
+![Pizza Performance](02_Hourly Sales Analysis.png)
 
 ### Category Analysis
-![Category Analysis](images/03_category_analysis.png)
+![Category Analysis](03_Revenue Trend Analysis.png)
 
 ### Hourly Sales Analysis
-![Hourly Sales Analysis](images/04_hourly_analysis.png)
+![Hourly Sales Analysis](04_Product Performance.png)
 
 
 
