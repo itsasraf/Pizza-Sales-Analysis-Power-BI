@@ -2,7 +2,6 @@
 
 An interactive Power BI dashboard that analyzes pizza sales across orders, hours, months, categories, sizes and individual products. It helps answer questions like: *When are sales highest? Which pizzas drive revenue? Which sizes and categories perform best?*
 
-**Power BI file:** `Pizza_Sales_Dashboard.pbix`
 
 ---
 
@@ -32,7 +31,7 @@ A high-level summary of business performance.
 - **Total Pizza Sold by Category** (bar chart)
 - Slicers: Month, Category
 
-**Insights**
+## Insights
 - Classic is the top category by revenue (~$220.05K, 26.91%), followed by Supreme (~$208.2K), Chicken (~$195.92K) and Veggie (~$193.69K).
 - Classic also sells the most pizzas (~14.9K).
 
@@ -45,7 +44,7 @@ Shows how orders and revenue change through the day.
 - **Total Revenue by Hour** (line chart)
 - Slicers: Month Name, Category, Hour Label, Pizza Size
 
-**Insights**
+## Insights
 - The lunch peak is the busiest period: 12 PM (2,520 orders, ~$112K) and 1 PM (2,455 orders, ~$106K).
 - A second peak appears in the evening around 5–6 PM (~2,400 orders at 6 PM, ~$89K).
 - Sales are very low at 9–10 AM and after 10 PM.
@@ -59,7 +58,7 @@ Tracks revenue over time and by day type and size.
 - **Total Revenue by Pizza Size** (donut)
 - Slicers: Pizza Size, Pizza Name, Pizza Category
 
-**Insights**
+## Insights
 - Monthly revenue stays fairly steady at ~$64K–$73K, with July the highest (~$73K) and Sep/Oct the lowest (~$64K).
 - Weekdays generate ~72.8% of revenue and weekends ~27.2%.
 - Large (L) pizzas contribute the most revenue (~45.9%), followed by Medium (~30.5%) and Small (~21.8%). XL and XXL are minimal.
@@ -75,7 +74,7 @@ Compares individual pizzas, categories and sizes.
 - **Summary Table** with Category, Size, Total Orders, Total Pizza Sold, Total Revenue, AOV and MoM Revenue Growth
 - Slicer: Month
 
-**Insights**
+## Insights
 - The Thai Chicken Pizza leads in revenue (~$43.4K), followed by The Barbecue Chicken Pizza and The California Chicken Pizza.
 - The Classic Deluxe Pizza sells the most units (2,453).
 - The Brie Carre Pizza has the lowest revenue (~$11.6K), and the bottom 5 are mostly Veggie/Supreme pizzas.
@@ -106,15 +105,6 @@ Compares individual pizzas, categories and sizes.
 
 ---
 
-## ▶️ How to Use
-
-1. Download `Pizza_Sales_Dashboard.pbix`.
-2. Open it in **Power BI Desktop**.
-3. Use the slicers (month, category, size, hour, pizza name) to explore the data.
-4. Switch between the four pages using the page tabs at the bottom.
-
----
-
 ## 💡 Business Takeaways
 
 - Staff and prepare for the **12–1 PM** and **5–6 PM** rushes.
@@ -126,5 +116,6 @@ Compares individual pizzas, categories and sizes.
 
 ## 👤 Author
 
-**[Your Name]**
-[LinkedIn](#) | [GitHub](#) | [Email](#)
+GitHub: https://github.com/itsasraf
+
+LinkedIn: www.linkedin.com/in/md-asraf-ibney-ajad-7719522a0
