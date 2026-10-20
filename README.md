@@ -85,19 +85,47 @@ An interactive, multi-page Power BI dashboard that analyzes a full year of pizza
 
 ## 🖼️ Screenshots
 
-### Sales Overview
-![Sales Overview](01_Sales Overview.png)
+### 1️⃣ Sales Overview
+![Sales Overview](01_Sales%20Overview.png)
 
-### Pizza Performance
-![Pizza Performance](02_Hourly Sales Analysis.png)
+- Total pizzas sold (**49,574**) and total revenue (**$817.86K**)
+- **Monthly revenue trend**: revenue stays between about $64K and $73K each month, with July the strongest month and September and October the weakest
+- **Revenue by day type**: weekdays bring in about 72.8% ($595.47K) and weekends about 27.2% ($222.38K)
+- **Revenue by pizza size**: Large 45.9%, Medium 30.5%, Small 21.8%, XL 1.7%, XXL very small
+- **Slicers**: Pizza Size, Pizza Name, Pizza Category
 
-### Category Analysis
-![Category Analysis](03_Revenue Trend Analysis.png)
+---
 
-### Hourly Sales Analysis
-![Hourly Sales Analysis](04_Product Performance.png)
+### 2️⃣ Pizza Performance
+![Pizza Performance](02_Hourly%20Sales%20Analysis.png)
 
+- **Top 10 pizzas by revenue** (total $364,285.45): led by The Thai Chicken Pizza ($43,434), The Barbecue Chicken Pizza ($42,768) and The California Chicken Pizza ($41,409)
+- **Top 10 pizzas by quantity sold** (total 21,613): led by The Classic Deluxe Pizza (2,453), The Barbecue Chicken Pizza (2,432) and The Hawaiian Pizza (2,422)
+- **Bottom 5 pizzas by revenue**: The Brie Carre, Green Garden, Spinach Supreme, Mediterranean and Spinach Pesto pizzas
+- **Category-wise revenue**: Classic $220K, Supreme $208K, Chicken $196K, Veggie $194K
+- **Size-wise revenue**: L $375K, M $249K, S $178K, XL $14K, XXL $1K
+- **Summary table**: orders, pizzas sold, revenue, AOV and month-over-month (MoM) growth for each pizza and size
+- **Slicer**: Month
 
+---
+
+### 3️⃣ Category Analysis
+![Category Analysis](03_Revenue%20Trend%20Analysis.png)
+
+- **KPI cards**: Total Orders, Total Revenue, AOV, Total Pizza Sold, Avg. Pizzas per Order, Highest Order Value
+- **Revenue by category** (donut): Classic 26.9%, Supreme 25.5%, Chicken 24.0%, Veggie 23.7%
+- **Pizzas sold by category** (bar): Classic 14.9K, Supreme 12.0K, Veggie 11.6K, Chicken 11.1K
+- **Slicers**: Month, Category
+
+---
+
+### 4️⃣ Hourly Sales Analysis
+![Hourly Sales Analysis](04_Product%20Performance.png)
+
+- **Total orders by hour**: the busiest hours are 12 PM (2,520 orders), 1 PM (2,455) and 6 PM (2,399)
+- **Total revenue by hour**: the lunch peak reaches about $112K at 12 PM, with a second peak of about $89K at 6 PM
+- Almost no orders before 10 AM and after 10 PM
+- **Slicers**: Month, Category, Hour Label, Pizza Size
 
 ---
 
