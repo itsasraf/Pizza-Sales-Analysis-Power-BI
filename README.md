@@ -2,7 +2,6 @@
 
 An interactive Power BI dashboard that analyzes pizza sales across orders, hours, months, categories, sizes and individual products. It helps answer questions like: *When are sales highest? Which pizzas drive revenue? Which sizes and categories perform best?*
 
-
 ---
 
 ## 📊 Key Metrics
@@ -31,9 +30,9 @@ A high-level summary of business performance.
 - **Total Pizza Sold by Category** (bar chart)
 - Slicers: Month, Category
 
-## Insights
-- Classic is the top category by revenue (~$220.05K, 26.91%), followed by Supreme (~$208.2K), Chicken (~$195.92K) and Veggie (~$193.69K).
-- Classic also sells the most pizzas (~14.9K).
+#### Insights
+- Classic is the top category by revenue (about $220.05K, 26.91%), followed by Supreme (about $208.2K), Chicken (about $195.92K) and Veggie (about $193.69K).
+- Classic also sells the most pizzas (about 14.9K).
 
 ### 02 – Hourly Sales Analysis
 ![Hourly Sales Analysis](ScreenShots/02_Hourly%20Sales%20Analysis.png)
@@ -44,9 +43,9 @@ Shows how orders and revenue change through the day.
 - **Total Revenue by Hour** (line chart)
 - Slicers: Month Name, Category, Hour Label, Pizza Size
 
-## Insights
-- The lunch peak is the busiest period: 12 PM (2,520 orders, ~$112K) and 1 PM (2,455 orders, ~$106K).
-- A second peak appears in the evening around 5–6 PM (~2,400 orders at 6 PM, ~$89K).
+#### Insights
+- The lunch peak is the busiest period: 12 PM (2,520 orders, about $112K) and 1 PM (2,455 orders, about $106K).
+- A second peak appears in the evening around 5–6 PM (about 2,400 orders at 6 PM, about $89K).
 - Sales are very low at 9–10 AM and after 10 PM.
 
 ### 03 – Revenue Trend Analysis
@@ -58,10 +57,10 @@ Tracks revenue over time and by day type and size.
 - **Total Revenue by Pizza Size** (donut)
 - Slicers: Pizza Size, Pizza Name, Pizza Category
 
-## Insights
-- Monthly revenue stays fairly steady at ~$64K–$73K, with July the highest (~$73K) and Sep/Oct the lowest (~$64K).
-- Weekdays generate ~72.8% of revenue and weekends ~27.2%.
-- Large (L) pizzas contribute the most revenue (~45.9%), followed by Medium (~30.5%) and Small (~21.8%). XL and XXL are minimal.
+#### Insights
+- Monthly revenue stays fairly steady at about $64K–$73K, with July the highest (about $73K) and Sep/Oct the lowest (about $64K).
+- Weekdays generate about 72.8% of revenue and weekends about 27.2%.
+- Large (L) pizzas contribute the most revenue (about 45.9%), followed by Medium (about 30.5%) and Small (about 21.8%). XL and XXL are minimal.
 
 ### 04 – Product Performance
 ![Product Performance](ScreenShots/04_Product%20Performance.png)
@@ -74,10 +73,10 @@ Compares individual pizzas, categories and sizes.
 - **Summary Table** with Category, Size, Total Orders, Total Pizza Sold, Total Revenue, AOV and MoM Revenue Growth
 - Slicer: Month
 
-## Insights
-- The Thai Chicken Pizza leads in revenue (~$43.4K), followed by The Barbecue Chicken Pizza and The California Chicken Pizza.
+#### Insights
+- The Thai Chicken Pizza leads in revenue (about $43.4K), followed by The Barbecue Chicken Pizza and The California Chicken Pizza.
 - The Classic Deluxe Pizza sells the most units (2,453).
-- The Brie Carre Pizza has the lowest revenue (~$11.6K), and the bottom 5 are mostly Veggie/Supreme pizzas.
+- The Brie Carre Pizza has the lowest revenue (about $11.6K), and the bottom 5 are mostly Veggie/Supreme pizzas.
 
 ---
 
@@ -118,4 +117,4 @@ Compares individual pizzas, categories and sizes.
 
 GitHub: https://github.com/itsasraf
 
-LinkedIn: www.linkedin.com/in/md-asraf-ibney-ajad-7719522a0
+LinkedIn: https://www.linkedin.com/in/md-asraf-ibney-ajad-7719522a0
