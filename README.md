@@ -1,133 +1,126 @@
 # 🍕 Pizza Sales Dashboard
 
-An interactive, multi-page Power BI dashboard that analyzes a full year of pizza sales. It tracks revenue, orders, best and worst performing pizzas, category and size performance, and hourly sales patterns, so a restaurant owner can see what sells, when it sells, and where the money comes from.
+An interactive Power BI dashboard that analyzes pizza sales across orders, hours, months, categories, sizes and individual products. It helps answer questions like: *When are sales highest? Which pizzas drive revenue? Which sizes and categories perform best?*
 
 ---
 
-## 📊 Key Metrics at a Glance
+## 📊 Key Metrics
 
 | Metric | Value |
-| Total Revenue |$817.86K|
-| Total Orders |21,350|
-| Total Pizzas Sold |49,574|
-| Average Order Value (AOV) |$38.31|
-| Avg. Pizzas per Order |2.32|
-| Highest Order Value |$444.20|
+|---|---|
+| Total Orders | 21,350 |
+| Total Pizzas Sold | 49,574 |
+| Total Revenue | $817.86K |
+| Average Order Value (AOV) | $38.31 |
+| Avg. Pizzas Sold per Order | 2.32 |
+| Highest Order Value | $444.20 |
 
 ---
 
-## 📊 Dashboard Previews
+## 📑 Dashboard Pages
 
-### 1. Sales Overview
+The report has four pages, in this order:
+
+### 01 – Sales Overview
 ![Sales Overview](01_Sales_Overview.png)
 
-### 2. Hourly Sales Analysis
+A high-level summary of business performance.
+- KPI cards: Total Orders, Total Revenue, AOV, Total Pizza Sold, Avg. Pizzas Sold per Order, Highest Order Value
+- **Total Revenue by Category** (donut chart)
+- **Total Pizza Sold by Category** (bar chart)
+- Slicers: Month, Category
+
+**Insights**
+- Classic is the top category by revenue (~$220.05K, 26.91%), followed by Supreme (~$208.2K), Chicken (~$195.92K) and Veggie (~$193.69K).
+- Classic also sells the most pizzas (~14.9K).
+
+### 02 – Hourly Sales Analysis
 ![Hourly Sales Analysis](02_Hourly_Sales_Analysis.png)
 
-### 3. Revenue Trend Analysis
+Shows how orders and revenue change through the day.
+- KPI cards: Orders by Hour, Total Pizza Sold, Sales by Hour, AOV
+- **Total Orders by Hour** (line chart)
+- **Total Revenue by Hour** (line chart)
+- Slicers: Month Name, Category, Hour Label, Pizza Size
+
+**Insights**
+- The lunch peak is the busiest period: 12 PM (2,520 orders, ~$112K) and 1 PM (2,455 orders, ~$106K).
+- A second peak appears in the evening around 5–6 PM (~2,400 orders at 6 PM, ~$89K).
+- Sales are very low at 9–10 AM and after 10 PM.
+
+### 03 – Revenue Trend Analysis
 ![Revenue Trend Analysis](03_Revenue_Trend_Analysis.png)
 
-### 4. Product Performance
+Tracks revenue over time and by day type and size.
+- **Monthly Revenue Trend** (column chart)
+- **Total Revenue by Day Type** (weekday vs weekend donut)
+- **Total Revenue by Pizza Size** (donut)
+- Slicers: Pizza Size, Pizza Name, Pizza Category
+
+**Insights**
+- Monthly revenue stays fairly steady at ~$64K–$73K, with July the highest (~$73K) and Sep/Oct the lowest (~$64K).
+- Weekdays generate ~72.8% of revenue and weekends ~27.2%.
+- Large (L) pizzas contribute the most revenue (~45.9%), followed by Medium (~30.5%) and Small (~21.8%). XL and XXL are minimal.
+
+### 04 – Product Performance
 ![Product Performance](04_Product_Performance.png)
----
 
-## 🔍 Key Insights
+Compares individual pizzas, categories and sizes.
+- **Top 10 Pizzas by Revenue**
+- **Top 10 Pizzas by Quantity Sold**
+- **Bottom 5 Pizzas by Revenue**
+- **Category-wise Revenue** and **Pizza Size-wise Revenue** tables
+- **Summary Table** with Category, Size, Total Orders, Total Pizza Sold, Total Revenue, AOV and MoM Revenue Growth
+- Slicer: Month
 
-- **Lunch is the busiest time**: 12 PM brings the most orders and revenue (about $112K), followed by 1 PM, with a second rush around 6 PM.
-- **Large pizzas drive the business**: Large pizzas bring in the largest share of revenue (about 46%).
-- **Weekdays dominate**: Weekdays account for roughly 73% of total revenue.
-- **Categories are well balanced**: Classic is the top revenue category, but all four categories are within a narrow range.
-- **Chicken pizzas win on revenue**: They fill the top spots for revenue even though Classic sells more units.
-- **Sales are steady all year**: Monthly revenue is consistent, peaking in July and dipping slightly in September and October.
+**Insights**
+- The Thai Chicken Pizza leads in revenue (~$43.4K), followed by The Barbecue Chicken Pizza and The California Chicken Pizza.
+- The Classic Deluxe Pizza sells the most units (2,453).
+- The Brie Carre Pizza has the lowest revenue (~$11.6K), and the bottom 5 are mostly Veggie/Supreme pizzas.
 
 ---
 
 ## 🛠️ Tools & Skills Used
 
-- **Power BI Desktop**: report design and visualization
-- **DAX**: measures for revenue, AOV, orders, MoM growth, etc.
-- **Power Query**: data cleaning and transformation
-- **Data modeling**: date, category and size relationships
+- **Power BI Desktop**: data modeling, DAX measures, visuals, slicers
+- Data cleaning and transformation (Power Query)
+- KPI cards, line charts, column charts, donut charts, bar charts, tables
+- Interactive filtering with slicers and dropdowns
 
 ---
 
-## 📁 Repository Structure
+## 📁 Project Structure
 
 ```
-├── Pizza_Sales_Dashboard.pbix     # Power BI dashboard file
-├── data/                          # Source dataset (CSV / Excel)
-├── images/                        # Dashboard screenshots
-│   ├── 01_Sales Overview.png
-│   ├── 02_Hourly Analysis.png
-│   ├── 03_Revenue Trend Analysis.png
-│   └── 04_Product Performance.png
+├── Dashboard_Pizza_Dataset.pbix
+├── 01_Sales_Overview.png
+├── 02_Hourly_Sales_Analysis.png
+├── 03_Revenue_Trend_Analysis.png
+├── 04_Product_Performance.png
 └── README.md
 ```
 
-> Update the file names above to match your repository.
+---
+
+## ▶️ How to Use
+
+1. Download `Dashboard_Pizza_Dataset.pbix`.
+2. Open it in **Power BI Desktop**.
+3. Use the slicers (month, category, size, hour, pizza name) to explore the data.
+4. Switch between the four pages using the page tabs at the bottom.
 
 ---
 
-## 🖼️ Screenshots
+## 💡 Business Takeaways
 
-### 1️⃣ Sales Overview
-![Sales Overview](01_Sales%20Overview.png)
-
-- Total pizzas sold (**49,574**) and total revenue (**$817.86K**)
-- **Monthly revenue trend**: revenue stays between about $64K and $73K each month, with July the strongest month and September and October the weakest
-- **Revenue by day type**: weekdays bring in about 72.8% ($595.47K) and weekends about 27.2% ($222.38K)
-- **Revenue by pizza size**: Large 45.9%, Medium 30.5%, Small 21.8%, XL 1.7%, XXL very small
-- **Slicers**: Pizza Size, Pizza Name, Pizza Category
-
----
-
-### 2️⃣ Pizza Performance
-![Pizza Performance](02_Hourly%20Sales%20Analysis.png)
-
-- **Top 10 pizzas by revenue** (total $364,285.45): led by The Thai Chicken Pizza ($43,434), The Barbecue Chicken Pizza ($42,768) and The California Chicken Pizza ($41,409)
-- **Top 10 pizzas by quantity sold** (total 21,613): led by The Classic Deluxe Pizza (2,453), The Barbecue Chicken Pizza (2,432) and The Hawaiian Pizza (2,422)
-- **Bottom 5 pizzas by revenue**: The Brie Carre, Green Garden, Spinach Supreme, Mediterranean and Spinach Pesto pizzas
-- **Category-wise revenue**: Classic $220K, Supreme $208K, Chicken $196K, Veggie $194K
-- **Size-wise revenue**: L $375K, M $249K, S $178K, XL $14K, XXL $1K
-- **Summary table**: orders, pizzas sold, revenue, AOV and month-over-month (MoM) growth for each pizza and size
-- **Slicer**: Month
-
----
-
-### 3️⃣ Category Analysis
-![Category Analysis](03_Revenue%20Trend%20Analysis.png)
-
-- **KPI cards**: Total Orders, Total Revenue, AOV, Total Pizza Sold, Avg. Pizzas per Order, Highest Order Value
-- **Revenue by category** (donut): Classic 26.9%, Supreme 25.5%, Chicken 24.0%, Veggie 23.7%
-- **Pizzas sold by category** (bar): Classic 14.9K, Supreme 12.0K, Veggie 11.6K, Chicken 11.1K
-- **Slicers**: Month, Category
-
----
-
-### 4️⃣ Hourly Sales Analysis
-![Hourly Sales Analysis](04_Product%20Performance.png)
-
-- **Total orders by hour**: the busiest hours are 12 PM (2,520 orders), 1 PM (2,455) and 6 PM (2,399)
-- **Total revenue by hour**: the lunch peak reaches about $112K at 12 PM, with a second peak of about $89K at 6 PM
-- Almost no orders before 10 AM and after 10 PM
-- **Slicers**: Month, Category, Hour Label, Pizza Size
-
----
-
-## 📌 Possible Improvements
-
-- Add year-over-year comparison with multi-year data
-- Add forecasting for monthly revenue
-- Add a profit-margin view using ingredient cost data
-- Publish to Power BI Service for live sharing
+- Staff and prepare for the **12–1 PM** and **5–6 PM** rushes.
+- Focus promotions on **weekends**, which contribute much less revenue than weekdays.
+- **Large** and **Classic** pizzas are the core revenue drivers.
+- Review or rework the bottom-performing pizzas, and consider promoting XL/XXL sizes, which sell poorly.
 
 ---
 
 ## 👤 Author
 
-Md. Asraf Ibney Ajad
-
-GitHub: https://github.com/itsasraf
-LinkedIn: www.linkedin.com/in/md-asraf-ibney-ajad-7719522a0
-
-
+**[Your Name]**
+[LinkedIn](#) | [GitHub](#) | [Email](#)
