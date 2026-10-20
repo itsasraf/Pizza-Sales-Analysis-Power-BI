@@ -2,6 +2,8 @@
 
 An interactive Power BI dashboard that analyzes pizza sales across orders, hours, months, categories, sizes and individual products. It helps answer questions like: *When are sales highest? Which pizzas drive revenue? Which sizes and categories perform best?*
 
+**Power BI file:** `Pizza_Sales_Dashboard.pbix`
+
 ---
 
 ## 📊 Key Metrics
@@ -22,7 +24,7 @@ An interactive Power BI dashboard that analyzes pizza sales across orders, hours
 The report has four pages, in this order:
 
 ### 01 – Sales Overview
-![Sales Overview](01_Sales_Overview.png)
+![Sales Overview](ScreenShots/01_Sales%20Overview.png)
 
 A high-level summary of business performance.
 - KPI cards: Total Orders, Total Revenue, AOV, Total Pizza Sold, Avg. Pizzas Sold per Order, Highest Order Value
@@ -35,7 +37,7 @@ A high-level summary of business performance.
 - Classic also sells the most pizzas (~14.9K).
 
 ### 02 – Hourly Sales Analysis
-![Hourly Sales Analysis](02_Hourly_Sales_Analysis.png)
+![Hourly Sales Analysis](ScreenShots/02_Hourly%20Sales%20Analysis.png)
 
 Shows how orders and revenue change through the day.
 - KPI cards: Orders by Hour, Total Pizza Sold, Sales by Hour, AOV
@@ -49,7 +51,7 @@ Shows how orders and revenue change through the day.
 - Sales are very low at 9–10 AM and after 10 PM.
 
 ### 03 – Revenue Trend Analysis
-![Revenue Trend Analysis](03_Revenue_Trend_Analysis.png)
+![Revenue Trend Analysis](ScreenShots/03_Revenue%20Trend%20Analysis.png)
 
 Tracks revenue over time and by day type and size.
 - **Monthly Revenue Trend** (column chart)
@@ -63,7 +65,7 @@ Tracks revenue over time and by day type and size.
 - Large (L) pizzas contribute the most revenue (~45.9%), followed by Medium (~30.5%) and Small (~21.8%). XL and XXL are minimal.
 
 ### 04 – Product Performance
-![Product Performance](04_Product_Performance.png)
+![Product Performance](ScreenShots/04_Product%20Performance.png)
 
 Compares individual pizzas, categories and sizes.
 - **Top 10 Pizzas by Revenue**
@@ -92,11 +94,13 @@ Compares individual pizzas, categories and sizes.
 ## 📁 Project Structure
 
 ```
-├── Dashboard_Pizza_Dataset.pbix
-├── 01_Sales_Overview.png
-├── 02_Hourly_Sales_Analysis.png
-├── 03_Revenue_Trend_Analysis.png
-├── 04_Product_Performance.png
+├── Dataset/
+├── ScreenShots/
+│   ├── 01_Sales Overview.png
+│   ├── 02_Hourly Sales Analysis.png
+│   ├── 03_Revenue Trend Analysis.png
+│   └── 04_Product Performance.png
+├── Pizza_Sales_Dashboard.pbix
 └── README.md
 ```
 
@@ -104,7 +108,7 @@ Compares individual pizzas, categories and sizes.
 
 ## ▶️ How to Use
 
-1. Download `Dashboard_Pizza_Dataset.pbix`.
+1. Download `Pizza_Sales_Dashboard.pbix`.
 2. Open it in **Power BI Desktop**.
 3. Use the slicers (month, category, size, hour, pizza name) to explore the data.
 4. Switch between the four pages using the page tabs at the bottom.
